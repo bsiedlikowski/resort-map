@@ -1,0 +1,13 @@
+{
+  "name": "resort-map",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "./run.sh",
+    "test": "npm run test --prefix backend && npm run test --prefix frontend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
