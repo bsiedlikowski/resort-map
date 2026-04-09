@@ -6,9 +6,7 @@ import { parseMap } from "./mapService"
 import { BookingService } from "./bookingService"
 import { Guest } from "./types"
 
-// Przy starcie app do testowania i w trybie produkcyjnym:
-// - createApp() zwraca Express app i stan BookingService (testy potrzebują)
-// - w run.sh i zegarkach używamy globalnej instancji z domyślnymi ścieżkami / lokalnymi
+
 export function createApp({ mapFile = '../map.ascii', bookingsFile = '../bookings.json' } = {}) {
   const app = express();
   app.use(cors());
